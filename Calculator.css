@@ -1,0 +1,57 @@
+.a {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 40px;
+    color: black;
+}
+
+p {
+    font-size: 60px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.cont {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    .cont {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+option {
+    font-size: 25px;
+}
+
+.js-select-operation {
+    font-size: 40px;
+}
+
+.js-input-a {
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+}
+
+.js-input-b {
+    color: black;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.js-btn-result {
+    width: 500px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(173, 148, 148);
+}
