@@ -1,0 +1,39 @@
+.a {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+p {
+  font-size: 60px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+button {
+
+  font-size: 40px;
+  margin-top: 10px;
+  width: 500px;
+  height: 50px;
+}
+
+option {
+  font-size: 25px;
+}
+
+.js-select-operation {
+  font-size: 40px;
+}
+
+.js-input-a {
+  color: white;
+  font-size: 20px;
+  background-color: blue;
+}
+
+.js-input-b {
+  color: black;
+  background-color: yellow;
+  font-size: 20px;
+}
