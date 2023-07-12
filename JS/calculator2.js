@@ -6,7 +6,7 @@ const operations = {
 };
 
 function calculate ( { a, b, operation }) {
-let result= null;
+let result;
 
 
 switch (operation) {
