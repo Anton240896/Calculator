@@ -7,8 +7,9 @@
 }
 
 p {
-    font-size: 90px;
+    font-size: 70px;
     margin-top: -34px;
+
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
@@ -68,3 +69,5 @@ option {
     cursor: pointer;
     background-color: rgb(173, 148, 148);
 }
+
+.calc {}
