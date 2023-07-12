@@ -11,19 +11,19 @@ let result;
 
 switch (operation) {
 
-    case  operations.sum:
+    case sum:
     result = sum(a, b);
     break;
 
-    case  operations.substract:
+    case substract:
     result = substract(a, b);
     break;
 
-        case  operations.multiply:
+        case multiply:
         result= multiply(a, b);
         break;
 
-        case  operations.division:
+        case division:
         result = division(a, b);
         break;
 
