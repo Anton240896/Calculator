@@ -1,7 +1,7 @@
 .a {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 320px;
     font-size: 40px;
     color: black;
 }
@@ -60,7 +60,7 @@ option {
 }
 
 .js-btn-result {
-    width: 300px;
+    width: 320px;
     height: 50px;
     border-radius: 50%;
     font-size: 30px;
