@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: rgb(0, 0, 0);
 }
@@ -81,4 +85,10 @@ option {
     font-size: 350px;
     color: rgb(245, 247, 247);
     margin-right: auto;
+}
+
+
+.light {
+    fill: azure;
+    cursor: pointer;
 }

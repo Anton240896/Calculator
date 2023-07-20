@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 body {
     background-color: azure;
 }
@@ -81,4 +86,9 @@ option {
     font-size: 350px;
     color: rgb(2, 2, 14);
     margin-right: auto;
+}
+
+
+.light {
+    cursor: pointer;
 }
