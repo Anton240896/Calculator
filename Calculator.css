@@ -1,15 +1,18 @@
-.a {
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.all {
+    margin-top: -280px;
     display: flex;
     flex-direction: column;
-    width: 320px;
     font-size: 40px;
-    color: black;
+    color: azure;
 }
 
 p {
     font-size: 70px;
-    margin-top: -34px;
-
+    margin-top: -19px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
@@ -23,9 +26,9 @@ p {
 
 @media screen and (max-width:200px) {
     .cont {
+        position: absolute;
         display: flex;
         margin-top: 45px;
-        flex-direction: column;
     }
 }
 
@@ -33,10 +36,11 @@ p {
 
 @media screen and (max-width:1200px) {
     .cont {
+        position: absolute;
         max-width: 1200px;
         display: flex;
-        margin-top: 45px;
         flex-direction: column;
+        margin-top: 45px;
     }
 }
 
@@ -46,29 +50,36 @@ option {
 }
 
 .js-select-operation {
+    background-color: rgb(2, 2, 14);
+    color: azure;
     font-size: 40px;
 }
 
 .js-input-a {
     color: white;
-    font-size: 20px;
-    background-color: blue;
+    font-size: 50px;
+    background-color: rgb(2, 2, 14);
 }
 
 .js-input-b {
-    color: black;
-    background-color: yellow;
-    font-size: 20px;
+    color: white;
+    background-color: rgb(2, 2, 14);
+    font-size: 50px;
 }
 
 .js-btn-result {
-    width: 320px;
+    width: 520px;
     height: 50px;
-    border-radius: 50%;
-    font-size: 30px;
+
+    color: azure;
+    font-size: 50px;
     border: none;
     cursor: pointer;
-    background-color: rgb(173, 148, 148);
+    background-color: rgb(2, 2, 14);
 }
 
-.calc {}
+.calc {
+    font-size: 350px;
+    color: rgb(245, 247, 247);
+    margin-right: auto;
+}
