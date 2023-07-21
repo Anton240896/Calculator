@@ -4,6 +4,9 @@ const selectOperationNode = document.querySelector('.js-select-operation');
 const btnResultNode = document.querySelector('.js-btn-result');
 const outputNode = document.querySelector('.js-output-a');
 
+const changeTheme = document.querySelectorAll('.theme');
+console.log(changeTheme);
+
 btnResultNode.addEventListener('click', function() {
 const a = Number(inputANode.value);
 const b = Number(inputBNode.value);
