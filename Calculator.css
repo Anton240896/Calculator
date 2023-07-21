@@ -60,11 +60,14 @@ option {
     font-size: 40px;
 }
 
+
 .js-input-a {
     color: rgb(2, 2, 14);
     font-size: 50px;
     background-color: azure;
 }
+
+
 
 .js-input-b {
     color: rgb(2, 2, 14);
@@ -82,6 +85,8 @@ option {
     background-color: azure;
 }
 
+
+
 .calc {
     font-size: 350px;
     color: rgb(2, 2, 14);
@@ -91,5 +96,5 @@ option {
 
 .light {
     cursor: pointer;
-    fill: black;
+    fill: azure;
 }
